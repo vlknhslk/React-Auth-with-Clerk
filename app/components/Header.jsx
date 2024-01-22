@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { auth } from "@clerk/nextjs";
+import { UserButton, auth } from "@clerk/nextjs";
 
 const Header = () => {
   const { userId } = auth();
@@ -31,6 +31,17 @@ const Header = () => {
               </Link>
             </>
           )}
+          {userId && (
+            <Link
+              href="profile"
+              className="text-gray-300 hover:text-white mr-4"
+            >
+              Profile
+            </Link>
+          )}
+          <div className="ml-auto">
+            <UserButton afterSignOutUrl="/" />
+          </div>
         </div>
       </nav>
     </>

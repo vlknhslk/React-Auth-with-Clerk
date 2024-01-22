@@ -1,4 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This project demonstrates how to implement a robust authentication system in a Next.js application using Clerk. Clerk provides a seamless and secure way to manage user authentication and session management.
+
+## Features
+
+- Easy Integration: Steps to integrate Clerk with Next.js.
+- Secure Authentication: Leverages Clerk's secure authentication mechanisms.
+- Session Management: Efficiently handles user sessions.
+- Customizable UI: Options to customize the authentication interface.
+
+## Getting Started
+
+# Prerequisites
+
+- Node.js
+- A Clerk account
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
 ## Getting Started
 
